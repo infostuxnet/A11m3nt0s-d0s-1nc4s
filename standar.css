@@ -7,7 +7,7 @@
 	src: url('https://cdn.rawgit.com/infostuxnet/A11m3nt0s-d0s-1nc4s/4d126c0c/thegodfather-v2-webfont.eot?#iefix') format('embedded-opentype'),
 		url('https://cdn.rawgit.com/infostuxnet/A11m3nt0s-d0s-1nc4s/4d126c0c/thegodfather-v2-webfont.woff') format('woff'),
 		url('https://cdn.rawgit.com/infostuxnet/A11m3nt0s-d0s-1nc4s/4d126c0c/thegodfather-v2-webfont.ttf') format('truetype'),
-		url('https://cdn.rawgit.com/infostuxnet/A11m3nt0s-d0s-1nc4s/4d126c0c/thegodfather-v2-webfont.svg#the_godfatherregular') format('svg');
+		url('https://cdn.rawgit.com/infostuxnet/A11m3nt0s-d0s-1nc4s/4d126c0c/thegodfather-v2-webfont.svg?#the_godfatherregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -65,16 +65,16 @@ a {
 
 .main,
 .container > header {
-	width: 90%;
-	max-width: 1060px;
+	/* width: 90%;
+	max-width: 1060px;*/
 	margin: 0 auto;
 	position: relative;
 	padding: 0 30px 50px 30px;
 }
 
-.container > header {
+/*.container > header {
 	padding: 30px 30px 40px 30px;
-}
+} */
 
 .container > header h1 {
 	font-size: 34px;
