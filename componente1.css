@@ -406,7 +406,7 @@
 }
 
 .book-2 .bk-cover h2 span:first-child:before {
-	content: 'A novel';
+	content: '';
 	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 	text-transform: uppercase;
 	position: absolute;
@@ -424,7 +424,7 @@
 }
 
 .book-2 .bk-cover h2 span:last-child:before {
-	content: 'by';
+	content: '';
 	font-size: 16px;
 	color: red;
 	position: absolute;
@@ -438,7 +438,6 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background: #f9ed65;
 	position: absolute;
 	top: 5px;
 	left: 101px;
