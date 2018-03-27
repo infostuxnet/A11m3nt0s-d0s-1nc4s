@@ -45,9 +45,9 @@
 }
 
 .bk-info button {
-	background: #FC756F;
+	/*background: #FC756F;*/
 	border: none;
-	color: #fff;
+	color: #151414;
 	display: inline-block;
 	padding: 3px 15px;
 	font-weight: 700;
