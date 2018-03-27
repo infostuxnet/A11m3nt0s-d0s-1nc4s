@@ -525,7 +525,7 @@
 
 /* Fallbacks */
 
-.no-csstransforms3d .bk-list li .bk-book > div,
+/*.no-csstransforms3d .bk-list li .bk-book > div,
 .no-csstransforms3d .bk-list li .bk-book .bk-cover-back {
 	display: none;
 }
@@ -537,4 +537,4 @@
 .no-csstransforms3d .bk-info button,
 .no-js .bk-info button {
 	display: none;
-}
+}*/
