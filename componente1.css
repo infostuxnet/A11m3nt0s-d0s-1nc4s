@@ -397,7 +397,7 @@
 .book-2 .bk-cover h2 {
 	font-size: 138px;
 	line-height: 102px;
-	padding: 27px;
+	padding: 30px;
 }
 
 .book-2 .bk-cover h2 span:first-child {
@@ -534,5 +534,5 @@
 
 .no-csstransforms3d .bk-info button,
 .no-js .bk-info button {
-	display: none;
+	display: inline;
 }
