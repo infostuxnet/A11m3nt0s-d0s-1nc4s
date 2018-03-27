@@ -7,7 +7,7 @@
 	src: url('https://cdn.rawgit.com/infostuxnet/A11m3nt0s-d0s-1nc4s/4d126c0c/thegodfather-v2-webfont.eot?#iefix') format('embedded-opentype'),
 		url('https://cdn.rawgit.com/infostuxnet/A11m3nt0s-d0s-1nc4s/4d126c0c/thegodfather-v2-webfont.woff') format('woff'),
 		url('https://cdn.rawgit.com/infostuxnet/A11m3nt0s-d0s-1nc4s/4d126c0c/thegodfather-v2-webfont.ttf') format('truetype'),
-		url('https://cdn.rawgit.com/infostuxnet/A11m3nt0s-d0s-1nc4s/4d126c0c/thegodfather-v2-webfont.svg?#the_godfatherregular') format('svg');
+		url('https://cdn.rawgit.com/infostuxnet/A11m3nt0s-d0s-1nc4s/4d126c0c/thegodfather-v2-webfont.svg#the_godfatherregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 a {
-	color: #230dcc;
+	color: #2010ec;
 	text-decoration: none;
 }
 
@@ -65,16 +65,16 @@ a {
 
 .main,
 .container > header {
-	/* width: 90%;
-	max-width: 1060px;*/
+	width: 90%;
+	max-width: 1060px;
 	margin: 0 auto;
 	position: relative;
 	padding: 0 30px 50px 30px;
 }
 
-/*.container > header {
+.container > header {
 	padding: 30px 30px 40px 30px;
-} */
+}
 
 .container > header h1 {
 	font-size: 34px;
@@ -82,7 +82,7 @@ a {
 	margin: 0;
 	font-weight: 700;
 	color: #333;
-	float: left;
+	float: initial;
 }
 
 /* Header Style */
@@ -144,19 +144,8 @@ a {
 }
 
 .support-note {
-	color: #0a0a0a;
+	color: #d7823e;
 	font-size: 26px;
-	display: block;
-	font-weight: bold;
-	text-align: center;
-	padding: 0px 0;
-	text-align: left;
-	clear: both;
-}
-
-.support-note1 {
-	color: #635454;
-	font-size: 16px;
 	display: block;
 	font-weight: bold;
 	text-align: center;
