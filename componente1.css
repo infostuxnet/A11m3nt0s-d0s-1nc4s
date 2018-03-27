@@ -255,9 +255,9 @@
 .bk-content {
 	position: absolute;
 	top: 30px;
-	left: 20px;
+	left: 0px;
 	bottom: 20px;
-	right: 20px;
+	right: 0px;
 	padding: 30px;
 	overflow: hidden;
 	background: #fff;
