@@ -45,9 +45,9 @@
 }
 
 .bk-info button {
-	/*background: #FC756F;*/
+	background: #FC756F;
 	border: none;
-	color: #151414;
+	color: #fff;
 	display: inline-block;
 	padding: 3px 15px;
 	font-weight: 700;
@@ -339,7 +339,7 @@
 .book-1 .bk-left h2 span:first-child {
 	text-transform: uppercase;
 	font-weight: 400;
-	font-size: 23px;
+	/*font-size: 13px;*/
 	padding-right: 20px;
 }
 
@@ -406,6 +406,7 @@
 }
 
 .book-2 .bk-cover h2 span:first-child:before {
+	content: 'A novel';
 	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 	text-transform: uppercase;
 	position: absolute;
@@ -423,6 +424,7 @@
 }
 
 .book-2 .bk-cover h2 span:last-child:before {
+	content: 'by';
 	font-size: 16px;
 	color: red;
 	position: absolute;
@@ -436,6 +438,7 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
+	background: #f9ed65;
 	position: absolute;
 	top: 5px;
 	left: 101px;
@@ -534,5 +537,5 @@
 
 .no-csstransforms3d .bk-info button,
 .no-js .bk-info button {
-	display: inline;
+	display: none;
 }
